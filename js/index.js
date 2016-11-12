@@ -1,0 +1,1 @@
+pageLoaded.innerHTML = (new date() ).tolocaleTimeString();

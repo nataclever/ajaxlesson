@@ -1,5 +1,6 @@
-$ function() {
-    $('#submit').click(function(e) {
+$(function() {
+    $('#submit').click(function(e) 
+    {
         e.preventDefault();
         $.ajax({
                 url: "https://formspree.io/natakozova@gmail.com",
@@ -16,3 +17,4 @@ $ function() {
                 $('form').html('Error!');
             });
     });
+});
